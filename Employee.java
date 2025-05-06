@@ -15,6 +15,8 @@ public class Employee {
         System.out.println("Employee ID:"+id);
         System.out.println("Employee Name:"+name);
         System.out.println("Salary: "+salary);
+        System.out.println("Dob: "+dob);
+        System.out.println("city: "+city);
     }
     public static void main(String[] args) {
         Employee e1 = new Employee("XYZ", 101, 50000.0,"26-11-2005","Dharwad");
